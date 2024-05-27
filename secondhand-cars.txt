@@ -1,0 +1,20 @@
+CARS
+____________________
+
+id                   - INT() - PRIMARY_KEY - AUTO_INCREMENT
+dealer_code          - VARCHAR(255) - NOT NULL
+brand                - VARCHAR(255) - NOT NULL
+model                - VARCHAR(255) - NOT NULL
+production_year      - DATE
+km                   - INT()
+price                - DECIMAL(7,2) - NOT NULL
+fuel                 - ENUM('gasoline', 'diesel', 'electric', 'hybrid')
+gear                 - ENUM('manual', 'automatic', 'sequential', 'hybrid')
+emission-class       - VARCHAR(255)
+color                - VARCHAR(255)
+optionals            - VARCHAR(255)
+location             - VARCHAR(255)
+type                 - VARCHAR(255)
+doors                - ENUM('3', '5')
+status               - VARCHAR(255)
+description          - MEDIUMTEXT
